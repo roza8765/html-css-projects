@@ -19,12 +19,16 @@ header {
   color: aliceblue;
 }
 .row-1 {
+  margin-top: 30px;
   display: flex;
-  flex-direction: row;
+  align-items: baseline;
+
+  justify-content: space-between;
 }
 .row-2 {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 button:hover {
   background: rgb(213, 224, 53);
@@ -34,7 +38,7 @@ h1:first-child {
   color: rgb(98, 15, 109);
   font-weight: 50px;
   font-style: italic;
-  padding: 10px;
+  padding: 20px;
   width: 200px;
   margin: auto;
   background-color: rgb(223, 96, 240);
@@ -42,6 +46,11 @@ h1:first-child {
   text-shadow: black 10px;
 }
 .main-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.article-container {
   text-align: center;
 
   margin-bottom: 3%;
@@ -54,7 +63,14 @@ h1:first-child {
 a:hover {
   direction: none;
 }
-
+.sideBar {
+  border-radius: 30px 30px 30px 30px;
+  margin-top: 60px;
+  width: 20%;
+  height: 800px;
+  text-align: center;
+  background-image: url(https://ae01.alicdn.com/kf/HTB13cdnKpXXXXbSXpXXq6xXFXXXf/Purple-flowers-fantasy-backdrop-3d-flower-wallpaper-custom-3d-mural-wallpaper-tv-backdrop-papel-parede-mural.jpg);
+}
 footer {
   height: 100px;
   background-color: rgb(98, 15, 109);
@@ -63,8 +79,7 @@ footer {
 }
 .article {
   width: 300px;
-  margin: auto;
 }
 .article img {
-  width: 300px;
+  width: 250px;
 }
