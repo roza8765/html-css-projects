@@ -18,6 +18,14 @@ header {
   background-color: rgb(63, 228, 151);
   color: aliceblue;
 }
+.row-1 {
+  display: flex;
+  flex-direction: row;
+}
+.row-2 {
+  display: flex;
+  flex-direction: row;
+}
 button:hover {
   background: rgb(213, 224, 53);
   color: orangered;
