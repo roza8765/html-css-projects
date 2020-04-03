@@ -1,12 +1,16 @@
 /* * {
   width: 100%;
   margin: auto;
-} */
+} 
 main {
+  /* background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: auto;
   background-image: url(https://s2.best-wallpaper.net/wallpaper/iphone/1902/Purple-tulips-flowers-light-pink-background_iphone_1080x1920.jpg);
-}
+} */
+
 header {
   text-align: center;
   background: yellowgreen;
@@ -47,8 +51,10 @@ h1:first-child {
 }
 
 .main-container {
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
   background-repeat: no-repeat;
-  background-size: auto;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -84,13 +90,19 @@ footer {
   text-align: center;
   padding-top: 2%;
 }
+h5 {
+  margin: 0;
+}
+h2 {
+  margin: 0;
+}
 .article {
   width: 300px;
 }
 .article img {
   width: 250px;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1000px) {
   .article .article img {
     width: 150px;
   }
