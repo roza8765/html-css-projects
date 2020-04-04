@@ -1,0 +1,165 @@
+/* * {
+  width: 100%;
+  margin: auto;
+} 
+main {
+  /* background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: url(https://s2.best-wallpaper.net/wallpaper/iphone/1902/Purple-tulips-flowers-light-pink-background_iphone_1080x1920.jpg);
+} */
+
+/* header {
+  text-align: center;
+  background: yellowgreen;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  border-radius: 30px 0px 30px 0px;
+  width: 100%;
+} */
+/* .article:first-child:hover {
+  background-color: rgb(63, 228, 151);
+  color: aliceblue;
+} */
+.row-1 {
+  margin-top: 30px;
+  display: flex;
+
+  justify-content: space-between;
+}
+.row-2 {
+  margin-top: 30px;
+  display: flex;
+
+  justify-content: space-between;
+}
+/* .button {
+  background-color: rgb(101, 221, 137);
+} */
+.card {
+  height: 600px;
+}
+.card-body {
+  background-color: rgb(216, 150, 210);
+  border-radius: 10px 0px 10px 0px;
+}
+/* a  {
+  display: flex;
+  align-items: baseline;
+} */
+button:hover {
+  background: rgb(213, 224, 53);
+  color: orangered;
+}
+h1:first-child {
+  color: rgb(98, 15, 109);
+  font-weight: 50px;
+  font-style: italic;
+  padding: 20px;
+  width: 200px;
+  margin: auto;
+  background-color: rgb(223, 96, 240);
+  border-radius: 20px 20px 20px 20px;
+  text-shadow: black 10px;
+}
+
+.main-container {
+  /* opacity: 0,7; */
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-image: url(https://s2.best-wallpaper.net/wallpaper/iphone/1902/Purple-tulips-flowers-light-pink-background_iphone_1080x1920.jpg);
+}
+
+.article-container {
+  text-align: center;
+
+  margin-bottom: 3%;
+}
+/* .fontp {
+  width: 30%;
+  margin-left: 500px;
+} */
+
+a:hover {
+  direction: none;
+}
+.sideBar {
+  background-repeat: no-repeat;
+  background-size: auto;
+  border-radius: 30px 30px 30px 30px;
+  margin-top: 60px;
+  width: 20%;
+  height: 800px;
+  text-align: center;
+  background-image: url(https://ae01.alicdn.com/kf/HTB13cdnKpXXXXbSXpXXq6xXFXXXf/Purple-flowers-fantasy-backdrop-3d-flower-wallpaper-custom-3d-mural-wallpaper-tv-backdrop-papel-parede-mural.jpg);
+}
+footer {
+  height: 100px;
+  background-image: url(https://ak5.picdn.net/shutterstock/videos/30366535/thumb/1.jpg);
+  color: aliceblue;
+  text-align: center;
+  padding-top: 2%;
+}
+h5 {
+  margin: 0;
+}
+h2 {
+  margin: 0;
+}
+.article {
+  width: 300px;
+}
+.article img {
+  width: 250px;
+}
+@media screen and (max-width: 1000px) {
+  .article .article img {
+    width: 150px;
+  }
+  .main-container {
+    display: flex;
+    flex-direction: column;
+  }
+  header {
+    background-color: blueviolet;
+  }
+  .sideBar {
+    width: 100%;
+    height: 100px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 800px) {
+  /* .article .article img {
+    width: 150px;
+  } */
+  .main-container {
+    display: flex;
+    flex-direction: column;
+  }
+  header {
+    background-color: rgb(235, 238, 83);
+    /* width: 100%; */
+  }
+  .sideBar {
+    width: auto;
+    height: 100px;
+    margin: auto;
+  }
+  .row-1 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .row-2 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
